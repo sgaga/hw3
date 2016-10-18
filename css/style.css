@@ -1,0 +1,157 @@
+/*Global Style*/
+.container{
+  max-width: 940px;
+  /*max-height: 940px;*/
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 34px;
+}
+/*header-style*/
+.all-header{
+position:relative;
+height: 43px;
+margin-top: 50px;
+background-color: blue;
+}
+.header-headline{
+  width: 270px;
+  background-color: red;
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 43px;
+}
+
+.header-Rstyle{
+position:absolute;
+bottom:0px;
+right: 0px;
+}
+.Bimg{
+  margin-left: 8px;
+}
+
+.button_A{
+  border: 1px solid #75874F;
+  width: 60px;
+  height: 20px;
+  color: #75874F;
+  text-align: center;
+}
+.button_B{
+  border: 1px solid #75874F;
+  width: 60px;
+  height: 20px;
+  color: #75874F;
+  text-align: center;
+  margin-left: 8px;
+}
+.header-Rbutton{
+  border-left: 1px solid #75874F;;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+/*
+.header-button{
+  border: 1px solid #75874F;
+  width: 60px;
+  height: 20px;
+  text-align: center;
+}
+
+tr td{
+
+  vertical-align: bottom;
+}
+*/
+
+/*nav style*/
+nav ul{
+  margin: 0;
+  padding: 0;
+}
+.clear li{
+  list-style: none;
+  float: left;
+  margin: 16px 60px 16px 0px;
+}
+.first-li{
+  margin-left: 31px;
+}
+/*article style*/
+.img-up{
+  margin: 20px 0px 32px 0px;
+}
+.header-txt{
+  margin-bottom: 17px
+}
+.Limg-margin{
+  margin: 0px 12px 0px 0px;
+}
+
+/*float*/
+.header-Lfloat{
+  float: left;
+}
+.header-Rfloat{
+  float: right;
+}
+
+.header-LABimg{
+  float: left;
+}
+.header-Rbutton{
+  float: right;
+}
+
+.Aimg{
+  float: left;
+}
+.Bimg{
+  float: right;
+}
+
+.header-login{
+  float: left;
+}
+.header-such{
+  float: right;
+}
+
+
+.img-left{
+  width: 444px;
+  margin: 0px 26px 0px 0px;
+  float: left;
+}
+.txt-right{
+  width: 444px;
+  margin: 0px 0px 0px 26px;
+  float: right;
+}
+.L-img{
+  float: left;
+}
+/*消除float錯誤問題*/
+.clear:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+/*footer*/
+.footer-style{
+  text-align: center;
+  /*padding-top: 24px;
+  padding-bottom: 24px;*/
+  height: 60px;
+  background-color: #889C5B;
+  width: 100%;
+}
+
+/*color style*/
+.header-txt{
+  background-color: #889C5B;
+}
+.nav-style{
+  background-color: #889C5B;
+  }
